@@ -56,7 +56,7 @@ Nexus_5_API_26
 // @{device이름}
 emulator @Nexus.6.A26
 ```
-2. 생 ReactNative 디렉토리에서 다음을 수행한다
+2. 생성한 React Native 디렉토리에서 다음을 수행한다
 ```
 react-native run-android
 ```
