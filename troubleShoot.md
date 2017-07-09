@@ -13,7 +13,14 @@ Android Studio 설치 시 기본적으로 sdk 경로는
 이다
 
 이 기준으로 환경변수
-- ANDROID_HOME
-- Path %ANDROID_HOME%\platform-tools;%ANDROID_HOME%\emulator
+- ANDROID_HOME : {userHomeDir}\AppData\Local\Android\sdk
+- Path : {기존path}%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\emulator
 
 설정이 필요하다.
+
+새 터미널을 띄우고  타이핑했을때 
+```
+$ adb
+$ emulator
+```
+가 정상동작하면 OK.
