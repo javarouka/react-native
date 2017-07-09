@@ -28,3 +28,36 @@ $ adb
 $ emulator
 ```
 가 정상동작하면 OK.
+
+## Android Device Emulator 생성
+React Native 를 개발하기 위해서는 먼저 안드로이드 가상환경을 만들어야 한다
+
+adb 를 사용해서 커맨드라인으로 만들수도 있지만,
+문서 https://developer.android.com/studio/run/managing-avds.html?hl=ko 를 보고 만드는게 편하다
+
+기기를 만들때
+![디바이스 이름](https://developer.android.com/images/tools/avd-verifyconfig.png?hl=ko)
+이름을 명확하게 짓자. 커맨드라인실행시 필요하다
+
+안드로이드 스튜디오에서는 만든 디바이스를 바로 실행해주는 GUI 가있어서 그것으로 바로 실행해도 되지만
+커맨드라인으로 실행할수도 있다.
+
+만들어진 Device 확인은 다음 명령으로 할 수 있다
+```
+$ emulator -list-avds
+Nexus.6.A26
+Nexus_5X_API_26
+Nexus_5_API_26
+```
+
+## 실행
+1. 에뮬레이터를 구동한다
+```
+// @{device이름}
+emulator @Nexus.6.A26
+```
+2. 생 ReactNative 디렉토리에서 다음을 수행한다
+```
+react-native run-android
+```
+3. 즐겁게 개발한다
