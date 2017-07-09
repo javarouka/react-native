@@ -1,7 +1,10 @@
 # 읽어야 한다
+## Official
 - 설치 : https://facebook.github.io/react-native/docs/getting-started.html
 - 디버깅 : https://facebook.github.io/react-native/docs/debugging.html
-- 윈도우 설정 : http://kwon-9981.tistory.com/15 ()
+
+## Blog
+- 윈도우 설정 : http://kwon-9981.tistory.com/15 (한글)
 
 # window 설치 시 주의할점
 유독 window 에서의 설치가 문서가 명확하지 않아 고생했다
